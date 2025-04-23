@@ -60,7 +60,6 @@ def main():
                 run = False
                 break
         
-        print(pygame.display.get_window_size())
         draw()
     pygame.quit()
             
