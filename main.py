@@ -3,7 +3,7 @@ import random
 pygame.font.init()
 
 WIDTH, HEIGHT = 900, 600
-WIN = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
+WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Deric Live Cam")
 
 BG = pygame.transform.scale(pygame.image.load("Deric.jpg"), (WIDTH, HEIGHT))
